@@ -1,0 +1,3 @@
+slides > slide:not(.nobackground):before {
+  content: "Jonathan Passerat-Palmbach / passerat@isima.fr";
+}
