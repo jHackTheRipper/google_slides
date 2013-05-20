@@ -30,6 +30,27 @@ ol, ul {
   list-style: none;
 }
 
+li {
+  padding-left: 1.3em;
+}
+
+li.TickList {
+  list-style-type: none;
+  padding-left: 1.3em;
+  background-image: url('./images/tick.png');
+  background-size: 1em;
+  background-repeat: no-repeat;
+}
+
+li.XMarkList {
+  list-style-type: none;
+  padding-left: 1.5em;
+  list-style-image: url('./images/xmark.png');
+  background-size: 1em;
+  background-repeat: no-repeat;
+}
+
+
 /* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
